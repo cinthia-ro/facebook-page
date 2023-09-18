@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Poppins:wght@300;400;500&family=Roboto&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.aliquam{
+  display: flex;
+}
+.aliquam>a>h2{
+  position: relative;
+  bottom: 20px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+}
+    
+
+ul.navbar>li{
+  display: inline-block;
+  padding: 0 25px;
+ 
+}
+
+.logo{
+  width: 35px;
+  height: 35px;
+}
+ul{
+  list-style-type:none;
+  margin: 0;
+
+}
+section.first{
+  background-image: url("../image/security-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  font-family: 'poppins', sans-serif;
+  
+}
+  
+.letter{
+font-weight: bold;
+  position: relative;
+  right: 12px;
+  bottom: 2px;
+  font-size: 1.4em;
+  font-family: 'roboto', sans-serif;
+}
+
+#logo-call{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: red;
+  padding: 14px;
+  font-size: 22px;
+
+}
+
+
+  a{
+  text-decoration: none;
+  color: white;
+}
+.text{
+  /* position: absolute;
+  bottom: 50px;
+  left: 650px; */
+}
+.text-3{
+  display: flex;
+}
+.text-4{
+  width: 50%;
+}
+.text{
+  width: 50%;
+}
+.text>strong>small{
+letter-spacing: 0.2em;
+position: relative;
+top: 15px;
+}
+ /* .privaty{
+  position: relative;
+  top: 250px;
+}  */
+ul.navbar>li>a{
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 0.84em;
+  /* position: relative;
+bottom: 25px; */
+
+}
+ul.navbar>li>a:hover{
+  color: white;
+
+}
+.have{
+  font-size: 0.71em;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.726);
+
+}
+div.text>h1{
+  font-size: 3.9em;
+  width: 90%;
+  line-height: 60px;
+  font-family: 'roboto', sans-serif;
+  
+
+} 
+div.text>p{
+  width: 76%;
+  position: relative;
+  bottom: 20px;
+ 
+}
+div.text>small{
+  position: relative;
+  top: 10px;
+  letter-spacing: 2px;
+}
+ .Call{
+  display: flex;
+  position: relative;
+  top: 90px;
+ 
+} 
+.Call>ul{
+  position: relative;
+  right: 30px;
+} 
+.phone{
+  font-size:0.83em;
+}
+.id{
+  font-size: 1.8em;
+  font-family: 'roboto', sans-serif;
+}
+ .second{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  bottom: 6px;
+  font-family: 'roboto', sans-serif;
+  border: 3px;
+}
+.container-1{
+
+  background-color: rgb(245, 249, 250);
+  font-family: 'roboto', sans-serif;
+  width: 50%;
+  padding: 50px 60px;
+
+}
+div.container-1>h1{
+  font-size: 40px;
+  width: 500px;
+}
+div.container-1>a{
+  color: red;
+  position: relative;
+  top: 10PX;
+letter-spacing: 0.16em;
+}
+.arrow{
+  position: relative;
+  left: 10px;
+  bottom: 2px;
+  font-size:8px;
+}
+
+.container-1>p{
+  line-height: 1.9em;
+  color: rgba(0, 0, 0, 0.733);
+}
+.container-2{
+  width: 50%;
+  background-color: red;
+  color: white;
+  padding: 70px 30px 40px 20px  ;
+
+} .nbers{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.nber{
+  margin:40px 60px;
+  text-align: center;
+  line-height:0;
+}
+div.nber>h2{
+  font-size: 4em;
+
+}
+div.container-2>p{
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  margin-left: 40PX;
+}
+
+ .third{
+  font-family: 'roboto', sans-serif;
+   text-align: center; 
+   margin: 80px 60px;       
+}
+
+
+.view{
+  border: 2px solid red;
+  padding: 11px;
+  color: red;
+  background-color: white;
+  margin-top: 80px;
+  letter-spacing: 0.15em;
+}
+div.item>img{
+  width:100%;
+  height: 15em;
+  object-fit: cover;
+  margin: 0; 
+}
+.third>h2{
+  font-size: 2.3em;
+}
+.subtitle{
+  color: rgba(0, 0, 0, 0.733);
+}
+ .item>p{
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.733);
+ }
+.articles{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 3em;
+  padding-top: 60px;
+  
+  
+}
+.item{
+  padding: 0;
+  text-align: left;
+}  
+.fourth {
+  background-image: url(../image/security-man.webp);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+
+
+}
+
+.container{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  margin: 100px 60px 0 60px; 
+ position: relative;
+bottom: 10px;
+}
+
+.set{
+  border: 0.01px solid rgba(255, 255, 255, 0.425);
+  padding: 25px 25px 20px 25px;
+  text-align: center;
+
+}
+.fourth>h3{
+  font-size: 2.6em;
+  position: relative;
+  top: 40px;
+
+}
+.set>i{
+  font-size: 35px;
+  color: red;
+}
+.set>p{
+  line-height: 25px;
+  font-size: 1em;
+  
+}
+.WHY{
+  position: relative;
+  top: 80px;
+  letter-spacing: 2px;
+}
+
+
+.fith{
+  font-family: 'roboto', sans-serif;
+margin:60px 0;
+
+}
+.all>h2{
+  font-size: 2.2em;
+}
+.all>small{
+  color: red;
+  position: relative;
+  top: 60px;
+  font-size: 0.5;
+}
+.all>small>i{
+ font-size: 0.7em;
+  position: relative ;
+left: 5px;
+}
+.test>p{
+  line-height: 30px;
+}
+
+.test>ul{
+  position: relative;
+  bottom: 37px;
+  left: 5px;
+}
+.name{
+  letter-spacing: 0.12em;
+}
+.work{
+color: rgb(92, 90, 90);
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+
+.testimonial{
+  display: flex;
+gap: 3.2em;
+padding: 0 60px;
+}
+.test>img{
+  width: 2.3em;
+  height: 2.3em;
+  border-radius: 50%; 
+  object-fit: cover;
+}
+.sixth-1>ul>li>i{
+  position: relative;
+  right: 20px;
+  color: red;
+}
+
+.sixth{
+  background-color:rgb(245, 249, 250);
+  display: flex;
+  font-family: 'roboto', sans-serif;
+}
+.sixth-1{
+  width: 50%;
+  padding: 60px;
+  line-height: 28px;
+
+
+}
+sup{
+  color: red;
+}
+.sixth-2{
+  width: 50%;
+  padding-right: 60px;
+}
+.form{
+  background-color: white;
+  width: 70%;
+  padding: 80px;
+  height: 390px;
+}
+.fill{
+  width: 97%;
+   height: 30px; 
+ padding: 6px;
+background-color: rgb(245, 249, 250);
+border: 1px solid rgb(225, 228, 230); 
+  
+}
+.form>button{
+  border: 2px solid red;
+  padding: 7px 15px;
+color: red;
+background-color: white;
+margin-top: 20px;
+}
+.sixth-1>h2{
+  font-size: 2.4em;
+}
+.sixth-1>ul{
+  position: relative;
+  right: 20px;
+}
+.text-1{
+  width: 85%;
+}
+.text-2{
+  width: 94%;
+  color: rgba(0, 0, 0, 0.651);
+
+}
+footer{
+  background-color: black;
+  font-family: 'roboto', sans-serif;
+ color: white; 
+            
+}
+.service{
+  display: flex;
+  padding: 0px 60px;
+  line-height: 25px;
+   
+}
+.address>ul>li{
+  font-size: 0.85em;
+  width: 200px;
+}
+.compagny>p{
+  font-size: 0.85em;
+  padding: 45px 0;
+  width: 14em;
+}
+
+.service>ul{
+  padding: 70px 40px 70px 30px;
+      width: 100%;
+  font-size: 0.85em;
+}
+.margin{
+  display: flex;
+  padding: 10px 60px  20px 60px;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.726);
+}
+
+.ali{
+  display: flex;
+  position: relative;
+  top: 63px;
+}
+.ali>img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 18px;
+
+}
+.icon-1{
+  display: flex;
+  gap: 1.4em;
+  position: relative;
+  bottom: 40px;
+}
+ul>h3{
+  font-size: 1.4em;
+}  
+
+/* MEDIA QUERY */
+
+
+
+   @media screen and (max-width:844px) {
+    div.container-1 > h1 {
+      font-size: 1.6em;
+      width: 70%;
+    
+    }
+    .container-2{
+      padding: 60px 20px 40px 10px;
+    }
+    .nber > small {
+      font-size: 0.65em;
+    }
+    .container-1 > p{
+      font-size: 0.9em;
+    }
+    .container-1{
+      padding: 50px 40px;
+    }
+    div.container-1 > a{
+      letter-spacing: 0.1em;
+font-size: 0.8em;
+    }
+    div.container-1 > a{
+      letter-spacing: 0.1em;
+font-size: 0.8em;
+    }
+    div.container-2 > p{
+      font-size: 0.7em;
+letter-spacing: 0.2em;
+margin-left: 30PX;
+    }
+    div.nber > h2 {
+      font-size: 2.8em;
+    }
+  
+    .logo {
+      width: 25px;
+      height: 25px;
+    }
+    .aliquam>a{
+      font-size: 0.8em;
+    }
+    ul.navbar > li > a {
+      font-size: 0.67em;
+      
+    }
+    .have{
+      width: 10.5em;
+      font-size: 0.57em;
+    }
+    .question>div>strong{
+      font-size: 0.8em
+    }
+    .text{
+      padding: 20px 90px 0px 0px;
+    }
+    div.text > h1 {
+      font-size: 3.4em;
+    }
+    .phone {
+      font-size: 0.76em;
+    }
+    .id {
+      font-size: 1.2em;
+      width: 8em;
+    }
+    #logo-call {
+      width: 0.8em;
+      height: 0.8em;
+      padding: 12px;
+      font-size: 20px;
+    }
+    div.text > h1 {
+      font-size: 3.2em;
+    }
+    div.text > p{
+      font-size: 0.9em;
+      width: 96%;
+    }
+    .Call{
+  
+      position: relative;
+      top: 5px;
+}
+div.item > img {
+  height: 5em;
+
+   }
+   .third{
+    padding: 80px 40px;
+   }
+   .articles {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin: 100px 40px 0 40px;
+}
+.set{
+  padding: 15px 15px 10px 15px;
+}
+.all{
+  padding: 0 40px;
+}
+  .all > small {
+
+    position: relative;
+    top: 40px;
+  }
+  .testimonial {
+    display: grid;
+    gap: 1em;
+  }
+  .form > button{
+    padding: 7px 7px;
+  }
+  .form{
+    padding: 45px;
+  }
+  .sixth-1 > h2{
+    line-height: 40px;
+  }
+  .sixth-1 {
+    padding: 40px;
+    line-height: 25px;
+  }
+  .service > ul {
+    padding: 70px 0px 70px 20px;
+    font-size: 0.7em;
+}
+.compagny > p {
+  font-size: 0.7em;
+}
+ul > h3 {
+  font-size: 1.2em;
+}
+.ali>h2{
+  font-size: 1em;
+}
+.compagny > p {
+  font-size: 0.7em;
+}
+.ali > img {
+  width: 20px;
+  height: 20px;
+}
+.service {
+  
+  padding: 0px 35px;
+}
+  .service {
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+  }
+  .service > ul {
+    padding: 0px 0px 30px 10px;
+  }
+  .margin{
+    padding: 5px 20px 10px 20px;
+    font-size: 0.65em;
+  }
+  .ali > h2 {
+    font-size: 1em;
+    position: relative;
+    top: 5px;
+  
+}
+   }
+
+
+
+
+
+   
+    @media screen and (max-width:450px){
+    section.first{
+      overflow: hidden;
+    }
+    header {
+      display: flex;
+      padding: 30px 20px;
+      flex-wrap: wrap;
+    }
+    .aliquam > a > h2 {
+      position: relative;
+      bottom: 10px;
+      font-size: 1em;
+    }
+    .have {
+      
+      font-size: 0.53em;
+      margin-left: 13px;
+margin-bottom: 5px;
+    }
+    .logo {
+      width: 17px;
+      height: 17px;
+    }
+    .question {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+    }
+    .have>div>strong>a{
+      font-size: 0.82em;
+    }
+    .question {
+      position: absolute;
+      top: 30px;
+      right: 0px;
+    } 
+    ul.navbar > li {
+      display: inline-block;
+      padding: 0 9px;
+      position: relative;
+      top: 60px;
+    }
+    div.text > h1 {
+      font-size: 3em;
+    }
+    .id {
+      font-size: 1em;
+    }
+    div.text > small{
+      font-size: 0.7em;
+    }
+    .text {
+      position: relative;
+      top: 50px;
+    }
+     .second{
+  display: flex;
+  flex-wrap: wrap;
+
+} 
+.container-1 > p {
+  font-size: 0.7em;
+  width: 18em;
+
+  }
+  .container-1 {
+  padding: 50px 20px;
+  overflow: hidden;
+  width: 100%;
+  }
+div.container-1 > h1 {
+  font-size: 1.4em;
+}
+.container-2 {
+  padding: 60px 20px 20px 0px;
+  width: 100%;
+}
+  .articles {
+  display: grid;
+  grid-template-columns: repeat(1,auto);
+}
+.third {
+  padding: 80px 15px;
+}
+div.item > img {
+
+    height: 8em;
+
+}
+.view {
+  padding: 8px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(1,auto);
+  margin: 2px 20px 0 20px;
+}
+.set > p {
+  line-height: 12px;
+  font-size: 0.71em;
+}
+.set>h2{
+  font-size: 1em;
+}
+.set {
+  padding: 3px 3px 3px 3px;
+}
+.set > i {
+  font-size: 13px;
+  color: red;
+}
+.fourth > h3 {
+  font-size: 1.4em;
+  position: relative;
+  top: 0;
+}
+.fourth{
+  overflow: hidden;
+}
+.WHY {
+  position: relative;
+  top: 20px;
+}
+.all > h2 {
+  font-size: 1.3em;
+
+}
+.all {
+  padding: 0 15px;
+}
+.all > small {
+  position: relative;
+  top: 30px;
+}
+.testimonial {
+  
+  padding: 0 20px;
+}
+.test > p {
+  line-height: 20px;
+  font-size: 0.8em;
+}
+.all > small {
+  position: relative;
+  top: 20px;
+}
+.sixth{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.text-2 {
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 0.8em;
+}
+.text-1 {
+  
+  font-size: 0.8em;
+}
+.sixth-1 > h2 {
+  line-height: 40px;
+  font-size: 1.8em;
+}
+.sixth-1 > ul {
+
+  font-size: 0.8em;
+}
+.sixth-1 {
+  padding: 20px;
+  line-height: 20px;
+}
+.form {
+  background-color: white;
+  width: 139%;
+}
+.fill{
+  height: 15px;
+}
+label {
+  font-size: 0.85em;
+}
+    }
+ 
+
+
+
+
+ 
